@@ -5,7 +5,6 @@ stages:
       dockerfilePath: Dockerfile
       buildContext: .
       tag: jgp
-      pushRemote: true
       registry: index.docker.io
 - name: ya
   steps:
